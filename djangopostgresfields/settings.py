@@ -25,7 +25,7 @@ SECRET_KEY = 'p%*7jo$$)v)d*rg&$u!jpt^0jpw-a!8x6^=@yo&45n59!7-xs9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'djangopostgresfields.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dtrangearrays',
-        'USER': 'django_test',
-        'PASSWORD': 'astrongpassword',
-        'HOST': '10.6.3.20',
+        'NAME': 'djangopostgresfields',
+        'USER': 'django',
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
