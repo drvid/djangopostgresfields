@@ -4,7 +4,7 @@ This is just a sample project/app to demonstrate shortcomings of Django's built-
 
 The only example is currently an ArrayField of DateTimeRangeFields.
 
-Tested using Django 2.1.7, Python 3.6.7 and PostgreSQL 9.4.21 on Debian Jessie Linux 8.11 (with pyenv).
+Tested using Django 2.2, Python 3.6.7 and PostgreSQL 9.6 on Debian 9 (with pyenv).
 
 
 ## Usage
